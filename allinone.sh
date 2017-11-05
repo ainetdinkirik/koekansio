@@ -13,7 +13,7 @@ cd /etc/puppet/modules
 
 sudo git clone https://github.com/ainetdinkirik/koekansio.git
 
-sudo puppet apply --modulepath modules/koekansio/ -e 'class{"ssh":}'
+sudo puppet apply -e 'class{"ssh":}'
 
 cd
 
