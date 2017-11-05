@@ -11,7 +11,7 @@ sudo apt install -y git tree puppet
 
 cd /etc/puppet/modules
 
-sudo git clone https://github.com/ainetdinkirik/koekansio.git
+sudo git clone https://github.com/ainetdinkirik/ssh.git
 
 sudo puppet apply -e 'class{"ssh":}'
 
